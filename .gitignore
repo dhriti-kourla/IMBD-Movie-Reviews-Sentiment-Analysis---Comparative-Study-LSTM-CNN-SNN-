@@ -1,0 +1,48 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+sentiment_env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+ipynb-test.ipynb
+
+# Virtual Environment
+venv/
+ENV/
+env/
+sentiment_env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model files (too large for GitHub - use Git LFS or host elsewhere)
+*.h5
+*.pkl
+
+# Large datasets (too large for GitHub - download from Kaggle)
+a1_IMDB_Dataset.csv
+a2_IMDb_Unseen_Reviews.csv
+
+# Logs
+*.log
+
+# Environment variables
+.env
